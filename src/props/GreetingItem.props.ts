@@ -1,4 +1,4 @@
-type GreetingItemProps = {
+interface GreetingItemProps {
   name: string;
   message: string
 };

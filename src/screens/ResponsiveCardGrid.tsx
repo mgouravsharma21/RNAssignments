@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, FlatList, Dimensions } from 'react-native';
-import Card from './Card.prop';
-import styles from '../stylesheet/StyleSheet';
+import Card from '../props/Card.props';
+import styles from '../styles/StyleSheet';
 
 
 // Static card data

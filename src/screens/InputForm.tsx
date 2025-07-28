@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-import styles from '../stylesheet/StyleSheet';
+import styles from '../styles/StyleSheet';
 
 const InputForm: React.FC = () => {
   const [name, setName] = useState('');

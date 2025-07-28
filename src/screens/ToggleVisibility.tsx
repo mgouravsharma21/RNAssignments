@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet, TouchableOpacity, Switch } from 'react-native';
-import styles from '../stylesheet/StyleSheet';
+import styles from '../styles/StyleSheet';
 
 
 const ToggleVisibility: React.FC = () => {

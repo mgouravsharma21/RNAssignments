@@ -1,30 +1,22 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 import {
   StatusBar,
-  StyleSheet,
   useColorScheme,
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import AssignmentList from './src/assignment_list/AssignmentList';
-import SimpleCounterApp from './src/simple_counter/SimpleCounterApp';
-import GreetingCard from './src/greeting_card/GreetingCard';
-import ToggleVisibility from './src/toggle_visibility/ToggleVisibility';
-import TimerComponent from './src/timer/TimerComponent';
-import InputForm from './src/input_handling/InputForm';
-import TodoList from './src/todo_list/TodoList';
-import ResponsiveCardGrid from './src/card_grid/ResponsiveCardGrid';
-import MemoizedComponent from './src/memorized_component/MemorizedComponent';
-import UserList from './src/user_list/UserList';
-import DarkModeToggle from './src/dark_mode/DarkModeTest';
+import AssignmentList from '../screens/AssignmentList';
+import SimpleCounterApp from '../screens/SimpleCounter';
+import GreetingCard from '../screens/GreetingCard';
+import ToggleVisibility from '../screens/ToggleVisibility';
+import TimerComponent from '../screens/Timer';
+import InputForm from '../screens/InputForm';
+import TodoList from '../screens/TodoList';
+import ResponsiveCardGrid from '../screens/ResponsiveCardGrid';
+import MemoizedComponent from '../screens/MemorizedComponent';
+import UserList from '../screens/UserList';
+import DarkModeToggle from '../screens/DarkModeTest';
 
 export type RootStackParamList = {
   AssignmentList: undefined,

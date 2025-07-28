@@ -1,5 +1,5 @@
 import React from "react";
-import UseFetchResult from "./UseFetchResult.type";
+import UseFetchResult from "../type/UseFetchResult.type";
 
 function useFetch<T = unknown>(url: string): UseFetchResult<T> {
   const [loading, setLoading] = React.useState<boolean>(true);

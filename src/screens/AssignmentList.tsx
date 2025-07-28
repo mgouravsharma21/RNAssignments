@@ -1,7 +1,7 @@
 import { FlatList, SafeAreaView, ScrollView, Text } from "react-native";
-import styles from "../stylesheet/StyleSheet";
-import { AssignmentItem } from "./AssignmentItem";
-import { RootStackParamList } from "../../App";
+import styles from "../styles/StyleSheet";
+import { AssignmentItem } from "../components/AssignmentItem";
+import { RootStackParamList } from "../nav/App";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";

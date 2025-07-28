@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View } from 'react-native';
-import styles from "../stylesheet/StyleSheet";
-import GreetingItem from './GreetingItem';
+import styles from "../styles/StyleSheet";
+import GreetingItem from '../components/GreetingItem';
 
 const GreetingCard: React.FC = () => {
 

@@ -1,4 +1,4 @@
-type ChildProps = {
+interface ChildProps{
   text: string;
 };
 

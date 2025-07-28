@@ -1,6 +1,6 @@
 import { Text, Touchable, TouchableOpacity, View } from "react-native";
-import { AssignmentItemProps } from "./AssignmentItem.props";
-import styles from "../stylesheet/StyleSheet";
+import { AssignmentItemProps } from "../props/AssignmentItem.props";
+import styles from "../styles/StyleSheet";
 
 
 export const AssignmentItem = ( {name, onPress}: AssignmentItemProps) => {

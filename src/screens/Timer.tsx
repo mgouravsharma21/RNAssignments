@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import styles from "../stylesheet/StyleSheet";
+import styles from "../styles/StyleSheet";
 import { useEffect, useState } from "react";
 
 const TimerComponent: React.FC = () => {

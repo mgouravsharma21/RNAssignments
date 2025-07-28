@@ -1,8 +1,8 @@
 import React, { useState, memo } from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
-import ChildProps from './Child.props';
-import styles from '../stylesheet/StyleSheet';
-import Child from './Child.memo';
+import ChildProps from '../props/Child.props';
+import styles from '../styles/StyleSheet';
+import Child from '../memo/Child.memo';
 
 const MemoizedComponent: React.FC = () => {
   const [counter, setCounter] = useState<number>(0);

@@ -1,7 +1,7 @@
 import { memo } from "react";
-import ChildProps from "./Child.props";
+import ChildProps from "../props/Child.props";
 import { Text, View } from "react-native";
-import styles from "../stylesheet/StyleSheet";
+import styles from "../styles/StyleSheet";
 
 const Child = memo<ChildProps>(({ text }) => {
   console.log('Child re-rendered');

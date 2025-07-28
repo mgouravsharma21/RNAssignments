@@ -1,7 +1,6 @@
 import { Text, View } from "react-native";
-import styles from "../stylesheet/StyleSheet";
-import GreetingItemProps from "./GreetingItem.prop";
-
+import styles from "../styles/StyleSheet";
+import GreetingItemProps from "../props/GreetingItem.props";
 
 const GreetingItem = (props: GreetingItemProps) => {
     return (

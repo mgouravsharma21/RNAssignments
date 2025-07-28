@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, FlatList, ActivityIndicator, StyleSheet } from 'react-native';
-import useFetch from './UseFetch.hook';
-import User from './User.prop';
-import styles from '../stylesheet/StyleSheet';
+import useFetch from '../hooks/UserFetch.hook';
+import User from '../props/User.prop';
+import styles from '../styles/StyleSheet';
 
 // Component that uses the hook
 const UserList: React.FC = () => {

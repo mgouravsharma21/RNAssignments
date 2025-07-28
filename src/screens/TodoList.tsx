@@ -8,8 +8,8 @@ import {
   TouchableOpacity,
   SafeAreaView
 } from 'react-native';
-import styles from '../stylesheet/StyleSheet';
-import TodoItem from './TodoItem.prop';
+import styles from '../styles/StyleSheet';
+import TodoItem from '../props/TodoItem.prop';
 
 const TodoList: React.FC = () => {
   const [todoText, setTodoText] = useState<string>('');

@@ -1,4 +1,4 @@
-type TodoItem = {
+interface TodoItem{
   id: string;
   text: string;
 };
