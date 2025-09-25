@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, Switch, StyleSheet } from 'react-native';
+import { View, Text, Switch } from 'react-native';
 import styles from '../styles/StyleSheet';
 
 const DarkModeToggle: React.FC = () => {

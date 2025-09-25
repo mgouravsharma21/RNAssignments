@@ -9,7 +9,8 @@ import { useState } from "react";
 
 const assignments = ["Simple Counter App", "Greeting Screen", "Toggle Text Visibility", "Timer Component",
   "Input Form", "TODO List", "Responsive Card Grid", "Memoized Component", "Fetch User List",
-  "Dark Mode Test"
+  "Dark Mode Test", "News Reader App", "Secure Login", "Weather Dashboard", "Product List",
+  "Expanse Tracker"
 ]
 
 type AssignmentListNavigationProp = NativeStackNavigationProp<RootStackParamList, 'AssignmentList'>;
@@ -53,7 +54,24 @@ const AssignmentList: React.FC = () => {
               break;
             case 9:
               navigation.navigate('DarkModeToggle');
-              break;  
+              break;
+            case 10:
+              navigation.navigate('NewsReaderApp');
+              break;
+              case 11:
+                navigation.navigate('SecureLogin');
+                break;
+                case 12:
+                  navigation.navigate('WeatherDashboard');
+                  break;
+                  case 13:
+                    navigation.navigate('ProductList');
+                    break;
+                    case 14:
+                    navigation.navigate('ExpanseTracker');
+                    break;
+            default:
+              break;
           }
         }} />}
         keyExtractor={item => item}

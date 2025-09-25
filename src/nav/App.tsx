@@ -17,6 +17,11 @@ import ResponsiveCardGrid from '../screens/ResponsiveCardGrid';
 import MemoizedComponent from '../screens/MemorizedComponent';
 import UserList from '../screens/UserList';
 import DarkModeToggle from '../screens/DarkModeTest';
+import NewsReaderApp from '../screens/NewsReaderApp';
+import SecureLogin from '../screens/SecureLogin';
+import WeatherDashboard from '../screens/WeatherDashboard';
+import ProductList from '../screens/ProductList';
+import ExpanseTracker from '../screens/ExpanseTracker';
 
 export type RootStackParamList = {
   AssignmentList: undefined,
@@ -29,7 +34,12 @@ export type RootStackParamList = {
   ResponsiveCardGrid: undefined,
   MemoizedComponent: undefined,
   UserList: undefined,
-  DarkModeToggle: undefined
+  DarkModeToggle: undefined,
+  NewsReaderApp: undefined,
+  SecureLogin: undefined,
+  WeatherDashboard: undefined,
+  ProductList: undefined,
+  ExpanseTracker: undefined
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -58,6 +68,11 @@ function App() {
           <Stack.Screen name="MemoizedComponent" component={MemoizedComponent} />
           <Stack.Screen name="UserList" component={UserList} />
           <Stack.Screen name="DarkModeToggle" component={DarkModeToggle} />
+          <Stack.Screen name="NewsReaderApp" component={NewsReaderApp} />
+          <Stack.Screen name="SecureLogin" component={SecureLogin} />
+          <Stack.Screen name="WeatherDashboard" component={WeatherDashboard} />
+          <Stack.Screen name="ProductList" component={ProductList} />
+          <Stack.Screen name="ExpanseTracker" component={ExpanseTracker} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
